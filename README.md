@@ -1,4 +1,4 @@
-# Marvel Superhero Viewer
+# Marvel Superhero hunter
 
 Marvel Superhero Viewer is a web application that allows users to explore and save information about their favorite Marvel superheroes. The application leverages the Marvel API to fetch and display superhero data, and users can conveniently manage their favorite superheroes by storing them in local storage.
 
