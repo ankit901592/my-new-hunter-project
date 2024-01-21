@@ -4,6 +4,7 @@
 let container=document.getElementById('fav-container');
 // container.style.color='white';
 container.style.textAlign='center'
+container.style.color='white';
 
 // by clicking the logo going back to homepage 
  let logo=document.getElementById('logo').addEventListener('click',()=>{
@@ -38,11 +39,11 @@ container.style.textAlign='center'
 
         if(localStorage.length<1){
             container.style.display='block';
-            container.innerText='Nov Fav item added yet';
+            container.innerText='Not any item added yet';
         }
  if(localStorage.length == 1 && localStorage.getItem("superhero")) {
          container.style.display = "block";
-         container.innerText = "No Fav Item Added";
+         container.innerText = "Not any item added yet";
        }
     });
 
