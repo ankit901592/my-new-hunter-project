@@ -1,0 +1,111 @@
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    height: 100vh;
+    width:100%;
+     background-image: url("https://wallpapers.com/images/high/comic-group-marvel-laptop-y4bsh6hgkv2bouv4.webp");
+background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+}
+heading{
+    display:flex;
+    flex-direction: row;
+    gap:32%
+    
+
+}
+#fav-btn{
+    cursor: pointer;
+    background-color: red   ;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+#logo{
+    cursor: pointer;
+    height: 100px;
+    width: 120px;
+}
+#head{
+    padding-top:0%;
+    top:10%;
+    font-size: xx-large;
+    position: relative;
+    left:30%;
+    display: inline;
+    text-align: center;
+
+}
+#head{
+    
+    color:white;
+    background-color:black;
+border: 1px dotted black;
+   border-radius: 25px;
+    position: relative;
+    left: 5px;
+}
+
+
+
+#diplay-container{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.card-img{
+    margin-top: 0px;
+    height: 150px;
+    width: 200px;
+
+}
+.diplay-card{
+    cursor: pointer;
+    width: 200px;
+    height: 240px;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    backdrop-filter: blur(3px);
+    color: white;
+    font-size: large;
+    background-color:gray;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+.button{
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color:black;
+    color:greenyellow;
+
+
+}   
+.button:hover{
+    background-color: rgb(68, 21, 129);
+    color: yellowgreen;
+
+
+}
+.cart-title{
+    margin-top:0px;
+    font-size: 20px;
+    color: black;
+}
+#fav-container{
+    font-size: 700;
+    color: black;
+}
